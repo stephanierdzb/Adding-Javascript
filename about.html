@@ -1,0 +1,145 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<link href="./css/index.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+</style>
+
+</head>
+<body>
+<header> 
+       <div class="normal-container">
+        <div class="myLogo"> 
+           <h1> S</h1> 
+                </div>
+
+        <nav id="inline-block">
+            <ul>
+                <li>Work</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li> Resume</li>
+              </ul>  
+                
+            </nav>
+     
+</div>
+	
+    
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#" class="active logo">S</a>
+  <div id="myLinks">
+    <a href="#">Work</a>
+    <a href="#about">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Resume</a>
+    
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+<!-- End smartphone / tablet look -->
+</div>
+</header>
+ <section class="about">
+    <div class="grid-container2"> 
+    <div><img src="images/headshot.png" class="headshot2" alt="headshot2">
+    </div>
+    <div><h5> Hi, Stephanie Rodriguez.</h5>
+    </h1>
+   <p>I’m a inspiring UI Designer with a background in Graphic Design. I love working closely with technology, other designers and creatives. As a designer, I am continuously aiming to learn and grow my skills as I know design is iterative and there are always new and innovative ways to solve problems. I love to learn new skills and emerge myself in new industries. My design practice so far includes visual design, front-end development, storytelling, research, branding & graphic design. </p>
+</div> </div>
+</div>
+</section>
+ 
+<section class="mySkills container"> 
+<h1 class="padding-tb">
+    Skills & Interest
+</h1>
+<div class="flexContainer"> 
+    <div class="flexChildren1"> 
+    <h3>User Research </h3>
+    <p>
+    I use various research methods, like User Interviews, Surveys & Usability testing. Once the research is concluded I start analyzing it by using  User Personas, Empathy Maps to expose problems and design opportunities.
+    </p>
+    </div>
+
+    <div class="flexChildren2">
+    <h3>Wireframing & Prototype  </h3>
+    <p>
+    With the research in hand & having defined a problem I can get started building the the wireframing, using this prototype we can have the first round of user testing, interating that prototype until we get the best user results. Once finalized we bring in the branding & continue to do testing, as always design is iterative and so this prototype can change tons of times.
+    </p>
+
+    </div>
+
+    <div class="flexChildren3">
+    <h3>Branding    </h3>
+    <p>
+        Branding is extremely important in UX when designing an app or website, I want its purpose to be is the first step in building a brand. By envisioning & wireframing  what you I want the user flow to be, the branding & design needs start to come to life. <br>
+    </p>
+
+    </div>
+    <div style="clear:both"></div>
+</div>
+</section>
+<section class="image-relative">
+    <img src="images/letstalk.png" class="talk" alt="talk">
+</section>
+<section>
+	<div class="grid-container1">
+                
+                <img src="images/headshot.png" class="headshot" alt="headshot">
+                <div class="pink-container">
+                    <form action="action_page.php">
+                  
+                      <label for="name1">Name</label><br>
+                      <input type="text" id="name" name="name" placeholder="Your name.."> <br>
+                  
+                      <label for="email1">Email</label> <br>
+                      <input type="text" id="email" name="email" placeholder="Your email... ">
+                      <br>
+                      <label for="message1">Message</label> <br>
+                      <textarea id="subject" name="message" placeholder="Write something.." style="height:150px"></textarea> <br>
+                  
+                      <input type="submit" value="Let's Talk!">
+                  
+                    </form>
+                  </div>
+</section>
+<footer>
+    <nav id= "inline-block1">
+        <ul>
+            <li>Work</li>
+            <li>Socials</li>
+            <li> Resume</li>
+          </ul>  
+            
+        </nav>
+
+</footer>
+ 
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
