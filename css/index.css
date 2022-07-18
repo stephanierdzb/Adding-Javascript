@@ -17,12 +17,14 @@ h1 {
 .padding-tb{padding-top:15%;padding-bottom:5%;}
 
 .container{width:85%;margin:0 auto;}
-ul {
+
+.nav {
     margin-left: auto;
     vertical-align: top;
-    display: inline;
+    display: flex;
     width: 50%; 
     width: 80%;
+    justify-content: space-between;
   }
 
 li {
@@ -171,21 +173,21 @@ input[type=submit] {
 .star {
     position: absolute;
     top: 6%;
-    left: 64.5%;
+    left: 68%;
     width: 40px;
     height: 40px;
 }
 .lightning {
     position: absolute;
-    top: 44%;
-    left: 96%;
+    top: 60%;
+    left: 40%;
     width: 30px;
     height: 45px;
 }
 .heart {
     position: absolute;
-    top: 35.5%;
-    left: 1%;
+    top: 27%;
+    left: -2%;
     width: 40px;
     height: 40px;
 }
@@ -292,4 +294,11 @@ h3{font-size:16px;}
     left: 0%;
     width: 30px;
     height: 30px;}
+}
+
+.menuItems{
+  display: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #EECEC8;
 }
